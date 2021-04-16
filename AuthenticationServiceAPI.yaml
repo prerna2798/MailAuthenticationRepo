@@ -13,8 +13,8 @@ spec:
         app: AuthenticationServiceAPI
     spec:
       containers:
-      - name: aksmailorderregg
-        image: aksmailorderregg.azurecr.io/aksmailorderregg:latest
+      - name: aksmop2reg
+        image: aksmop2reg.azurecr.io/aksmop2reg:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
